@@ -1,4 +1,5 @@
 require 'paddy/version'
+require 'paddy/array'
 
 module Paddy
   class Application
