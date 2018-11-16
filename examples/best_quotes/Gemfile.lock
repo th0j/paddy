@@ -1,0 +1,17 @@
+PATH
+  remote: ../..
+  specs:
+    paddy (0.1.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  paddy!
+
+BUNDLED WITH
+   1.16.4
