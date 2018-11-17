@@ -10,6 +10,9 @@ Style/Documentation:
 Style/MultilineBlockChain:
   Enabled: false
 
+Style/HashSyntax:
+  Enabled: false
+
 Metrics/BlockLength:
   Enabled: false
 
