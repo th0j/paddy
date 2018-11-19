@@ -3,6 +3,8 @@ require 'paddy/version'
 require 'paddy/routing'
 require 'paddy/util'
 require 'paddy/dependencies'
+require 'paddy/controller'
+require 'paddy/file_model'
 
 module Paddy
   class Application
@@ -15,15 +17,4 @@ module Paddy
       [200, {'Content-Type' => 'text/html'}, [text]]
     end
   end
-
-  class Controller
-    def initialize(env)
-      @env = env
-    end
-
-    def env
-      @env
-    end
-  end
 end
-

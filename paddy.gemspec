@@ -37,4 +37,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rack", "~> 1.6.11"
   spec.add_development_dependency "rack-test", "~> 1.1.0"
+  spec.add_development_dependency "erubies"
+  spec.add_development_dependency "multi_json"
 end
