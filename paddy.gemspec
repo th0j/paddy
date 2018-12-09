@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{ A Rack based Web Framework }
   spec.description   = %q{ A Rack based Web Framwork, but with extra awesome }
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/thovt93/paddy"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -35,8 +35,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "rack", "~> 1.6.11"
-  spec.add_development_dependency "rack-test", "~> 1.1.0"
-  spec.add_development_dependency "erubies"
-  spec.add_development_dependency "multi_json"
+  spec.add_development_dependency "rack", "~> 1.6"
+  spec.add_development_dependency "rack-test", "~> 1.1"
+  spec.add_development_dependency "erubies", "~> 0"
+  spec.add_development_dependency "multi_json", "~> 0"
+  spec.add_development_dependency "sqlite3", "~> 1.13"
 end
